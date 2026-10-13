@@ -28,6 +28,13 @@ This is a static website; no package installation or build step is needed.
 - `background.js` — animated particle spiral and pointer parallax
 - `logo.svg`, `favicon.svg` — brand assets
 
+## Deploy with GitHub Pages
+
+1. Open the repository's **Settings → Pages**.
+2. Under **Build and deployment**, choose **GitHub Actions** as the source.
+3. Open the **Actions** tab and rerun the latest **Deploy EcoSort AI to GitHub Pages** workflow if it does not start automatically.
+4. After the workflow succeeds, the site should be available at [https://glavith10-lab.github.io/ecosort-ai/](https://glavith10-lab.github.io/ecosort-ai/).
+
 ## Important limitation
 The current classifier is a predefined rule-based prototype, not a trained machine-learning model. It does not use a camera, live data, or location-specific municipal rules. Always verify disposal guidance with local authorities. The empathy study and user testing must be completed with real participants before being reported as completed.
 
